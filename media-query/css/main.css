@@ -1,0 +1,55 @@
+.box{
+	height: 200px;
+	display: inline-block;
+	width: 24%;
+}
+
+.yellow{
+	background-color: yellow;
+
+}
+.red{
+	background-color: red;
+
+}
+.black{
+	background-color: black;
+
+}
+.blue{
+	background-color: blue;
+
+
+}
+/*min-width the lowest to do the element the px it has to be bigger
+than what we wrote to do what we want*/
+/*max-width the highst to do the element the px it has to be lowest
+than what we wrote to do what we want */
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+/*we finsh the css element we will start withe the 
+media queri*/
+
+/*here if the width bigger than 1000
+make all of the element take 100% of the screen */
+/*more than 1000px for the screen size make the width for the element 100%*/
+
+@media(min-width: 1000px){
+	.box{
+		width: 100%;
+	}
+}
+/*when the screen less than 500px make thes tow class disaper*/
+/*display none make somthing disaper*/
+
+@media(max-width: 500px){
+	.blue ,	.yellow{
+		display: none;
+	}
+}
